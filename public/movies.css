@@ -1,0 +1,61 @@
+#movies{
+  background-color: #417D7A;
+  color: #EDE6DB;
+}
+.main{
+  background-color: #EDE6DB;
+  margin: 0;
+}
+
+img{
+  height:20rem;
+  width: auto;
+}
+p{
+  font-size: 1.5rem;
+}
+.head{
+  text-align: center;
+  color:#1A3C40;
+  background-color: #EDE6DB;
+  margin: 0;
+}
+.card{
+  background-color: #417D7A;
+  margin: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+.h{
+  float: right;
+  margin-right: 20px;
+  margin-top: 5px;
+}
+body{
+  background-color: #EDE6DB;
+  text-align: center;
+  padding: 20px;
+}
+.lt{
+  margin-left: 25%;
+}
+.d-flex{
+  padding-left: 400px;
+}
+.navbar{
+  padding-left: 30px;
+  background-color: #EDE6DB;
+  font-size: 18px;
+  padding-top: 20px;
+  border-radius: 20px;
+}
+.nav-item{
+  padding-left: 30px;
+
+}
+.nav-link:hover{
+  color: #417D7A;
+}
+.row{
+
+}

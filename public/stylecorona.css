@@ -1,0 +1,41 @@
+h1{
+  font-family: 'Rubik Moonrocks', cursive;
+  font-size: 4rem;
+  background-color:#417D7A;
+  padding: 20px;
+
+}
+h2{
+font-family: 'Roboto Mono', monospace;
+font-size: 3rem;
+}
+p{
+  font-family: 'Roboto Mono', monospace;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+a{
+  border-radius: 25px;
+  background-color: #FEFBF6;
+  padding: 10px;
+}
+a:hover{
+  background-color:#417D7A;;
+
+}
+body{
+  text-align: center;
+}
+td{
+  padding: 10px;
+}
+.content{
+  height: 700px;
+  overflow-y: scroll;
+}
+.navbar-nav{
+  padding-left: 50%;
+}
+.n{
+  padding-left: 10%;
+}

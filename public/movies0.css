@@ -1,0 +1,53 @@
+body{
+  text-align: center;
+}
+.main{
+  background-color: #EDE6DB;
+  margin: 0;
+}
+.movie{
+  background-image: url("images/movies.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 200px;
+  padding-bottom: 200px;
+  text-align: center;
+  color: white;
+}
+.enter{
+  height: 200px;
+  width: auto;
+}
+.tvshow{
+  background-image: url("images/tvshows.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 200px;
+  padding-bottom: 200px;
+  text-align: center;
+  color: white;
+}
+.comingsoon{
+  background-image: url("images/comingsoon.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 200px;
+  padding-bottom: 200px;
+  text-align: center;
+  color: white;
+
+}
+.find{
+  background-image: url("images/find.jpg");
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 200px;
+  padding-bottom: 200px;
+  text-align: center;
+  color: white;
+}
+.row{
+  background-color: #417D7A;
+  padding: 20px;
+}

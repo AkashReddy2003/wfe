@@ -1,0 +1,27 @@
+.main{
+  padding: 60px;
+  background-color: #827397;
+}
+h1,a{
+  text-align: center;
+  background-color: #E9D5CA;
+  padding: 10px;
+  margin: 0;
+}
+.none{
+  display:none;
+}
+body{
+  text-align: center;
+}
+.btn{
+  margin-top: 20px;
+}
+.wrapper{
+  padding: 60px;
+  background-color: #4D4C7D;
+}
+.btn-md{
+  z-index: 1;
+  float: left;
+}

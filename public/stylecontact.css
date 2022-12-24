@@ -1,0 +1,51 @@
+h1{
+  font-family: 'Rubik Moonrocks', cursive;
+  font-size: 5rem;
+
+}
+h2{
+font-family: 'Roboto Mono', monospace;
+font-size: 3rem;
+}
+p{
+  font-family: 'Roboto Mono', monospace;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+.btn{
+  border-radius: 20px;
+  background-color: #F2D7D9;
+}
+.btn:hover{
+  background-color: #D3CEDF;
+
+}
+body{
+  text-align: center;
+}
+#me{
+  float: right;
+  padding-right: 100px;
+}
+.head{
+  padding: 100px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: #F2D7D9;
+}
+.home{
+  background-color: #F2D7D9;
+}
+.skills{
+  background-color: #D3CEDF;
+}
+#skill1{
+  display: none;
+}
+.row{
+  padding: 150px;
+  padding-bottom: 50px;
+}
+.skills{
+  text-align: center;
+}

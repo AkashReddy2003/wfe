@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Corona</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+      <link rel="stylesheet" href="stylecorona.css">
+  </head>
+  <body>
+    <div class="container-fluid">
+      <h1>Carona Cases</h1>
+      <nav class="navbar navbar-expand-lg bg-light">
+      <div class="container-fluid n">
+        <a class="navbar-brand" href="/h">Home</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <input class="form-control me-2" type="search" placeholder="Search by Country" id="search">
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    </div>
+    <div class="content">
+      <table class="table table-success table-striped" data-bs-spy="scroll">
+        <thead>
+          <tr>
+            <th scope="col">Country</td>
+            <th scope="col">Total Confirmed Cases</td>
+            <th scope="col">Total Deaths</td>
+              <th scope="col">New Confirmed Cases</td>
+              <th scope="col">New Deaths</td>
+          </tr>
+        </thead>
+        <tbody id="items">
+
+        </tbody>
+
+      </table>
+
+    </div>
+
+<script src="corona.js"></script>
+  </body>
+</html>

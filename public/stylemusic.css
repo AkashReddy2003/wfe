@@ -1,0 +1,57 @@
+.cont {
+  text-align: center;
+  background-color: #EDE6DB;
+  border: 0;
+  padding-top: 2rem;
+  padding-left: 0;
+  padding-right: 0;
+  margin: 0;
+}
+.cont h1{
+  padding-bottom: 3rem;
+  margin: 0;
+}
+.h{
+  float: right;
+  margin-right: 3rem;
+}
+
+.list-group-item{
+  background-color: #417D7A;
+}
+.list-group-item:hover{
+  background-color: #EDE6DB;
+}
+.row img{
+  height: auto;
+  width: 20rem;
+}
+.row{
+  padding: 0;
+  margin: 0;
+  border: 0;
+
+}
+.l{
+  background-color: #417D7A;
+  text-align: center;
+  padding-top: 4rem;
+}
+.l h1{
+  padding-top: 2.5rem;
+}
+.r{
+  background-color: #1D5C63;
+  padding: 3rem;
+}
+.table{
+  text-align: center;
+  border: 0px;
+  background-color: grey;
+  margin: 0;
+
+}
+.mh{
+  text-align: center;
+  padding: 3rem;
+}

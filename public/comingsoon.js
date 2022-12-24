@@ -1,0 +1,21 @@
+$.ajax({
+  type:"get",
+  url:"https://imdb-api.com/en/API/ComingSoon/k_ndonvy09",
+  success:function(responce){
+    console.log(responce.items);
+    for(var i=0;i<responce.items.length;i++){
+      var item=`<div class="card col-lg-3" style="width: 18rem;">
+      <h1>${responce.items[i].fullTitle}</h1>
+        <div class="card-body">
+          <h5 class="card-title">Release Date:${responce.items[i].releaseState}</h5>
+
+        </div>
+      </div>`
+      $(".row").append(item);
+    };
+  },
+  error:function(error){
+    console.log(error)
+  },
+
+});

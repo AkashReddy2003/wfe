@@ -1,0 +1,89 @@
+
+.navbar{
+  padding-left: 30px;
+  background-color: #EDE6DB;
+  font-size: 18px;
+  padding-top: 20px;
+}
+.logo{
+  height:70px;
+}
+.v{
+  background-color:  #1D5C63;
+
+}
+
+.navbar-brand{
+  padding-left: 20px;
+  font-size: 20px;
+  float: left;
+
+}
+.nav-item{
+  padding-left: 30px;
+
+}
+.main{
+  padding-top:100px;
+  padding-left: 100px;
+  background-color: #417D7A;
+  font-family: 'Roboto Mono', monospace;
+  color: #1A3C40;
+  width:auto;
+}
+.main img{
+  padding-left: 100px;
+  height: 350px;
+
+}
+.main h1{
+  padding-top: 170px;
+  padding-bottom: 100px;
+
+}
+.nav-link:hover{
+  color: #417D7A;
+}
+.second{
+  background-color: #1D5C63;
+
+}
+.second h1{
+  padding-top: 200px;
+  padding-bottom: 150px;
+  padding-left: 50px;
+}
+
+.second img{
+  float: right;
+  padding-right: 200px;
+  padding-top: 150px;
+}
+.content{
+color: #1D5C63;
+background-color: #EDE6DB;
+  padding: 50px
+}
+.content img{
+  width:500px;
+  padding-bottom: 10px;
+  display: none;
+  border-radius: 20px;
+  box-shadow: 5px 5px 10px 2px rgba(0,0,0,.8);
+}
+.content h2{
+  padding: 10px;
+}
+#cont2{
+  float: right;
+}
+.typed-cursor{
+  display: none;
+}
+
+@media only screen and (max-width: 600px) {
+
+  img.h{
+    display: none;
+  }
+}

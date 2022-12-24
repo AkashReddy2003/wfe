@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Daily Shedule</title>
+  <link rel="stylesheet" href="stylelist.css">
+</head>
+
+<body>
+  <a href="/h" class="btn btn-lg btn-light">HOME</a>
+  <div id="heading" class="box">
+    <h1><%=day%></h1>
+  </div>
+
+
+  <div class="box">
+    <%for(var i=0;i<elements.length;i++){%>
+    <div class="item">
+      <input type="checkbox">
+      <p id="list"><%=elements[i]%></p>
+    </div>
+    <%}%>
+    <form class="" action="/list" method="post">
+      <input type="text" name="element" placeholder="NEW ITEM" autocomplete="off">
+      <button type="submit" name="button">+</button>
+    </form>
+    <form class="" action="/list/clear" method="post">
+      <button type="submit" name="button"><img src="images/bin.png"></button>
+    </form>
+</div>
+
+
+
+
+  </body>
+</html>
