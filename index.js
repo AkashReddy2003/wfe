@@ -4,7 +4,7 @@ const cheerio=require("cheerio");
 const app = express();
 const request = require("request");
 app.set("view engine", "ejs");
-app.set('views',path.join(__dirname+'views'))
+
 const https = require("https");
 app.use(express.static(__dirname+"/public"));
 app.use(bodyParser.urlencoded({
