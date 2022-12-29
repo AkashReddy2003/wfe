@@ -264,7 +264,7 @@ app.post("/list/clear",function(req,res){
   res.redirect("/list");
 });
 app.get("/contact",function(req,res){
-  res.sendFile(__dirname+"public/.html");
+  res.sendFile(__dirname+"/public.html");
 });
 app.get("/corona",function(req,res){
   res.sendFile(__dirname+"/corona.html");
